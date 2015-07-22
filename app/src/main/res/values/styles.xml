@@ -5,4 +5,21 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="button_style">
+        <item name="android:layout_width">@dimen/layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin</item>
+        <item name="android:background">@color/udacity_orange</item>
+        <item name="android:paddingBottom">@dimen/button_padding</item>
+        <item name="android:paddingLeft">@dimen/button_padding</item>
+        <item name="android:paddingRight">@dimen/button_padding</item>
+        <item name="android:paddingTop">@dimen/button_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">
+            @dimen/abc_text_size_medium_material
+        </item>
+        <item name="android:onClick">buttonClick</item>
+    </style>
+
 </resources>
